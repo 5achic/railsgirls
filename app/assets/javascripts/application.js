@@ -13,4 +13,9 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
-//= require_tree .
+//= require jquery.matchHeight
+
+//matchHeight
+$(document).ready(function() {
+    $('.image-wrapper').matchHeight();
+});
