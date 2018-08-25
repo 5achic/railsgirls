@@ -14,6 +14,7 @@ group :production do
 end
 # Use image uploader
 gem 'carrierwave'
+gem 'mini_magick', '4.8.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
