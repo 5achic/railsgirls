@@ -16,7 +16,7 @@
   <h3>Comments</h3>
   <% @comments.each do |comment| %>
   <div>
-    <p><b>Name: </b><%= comment.user_name %></p>
+    <p><b>Name: </b><%= comment.user.name %></p>
     <br />
     <p><%= comment.body %></p>
     <p><%= link_to 'Delete', comment_path(comment), method: :delete, data: { confirm: 'Are you sure?' } %></p>
